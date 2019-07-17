@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "queenlist queendetail"
+                      "queenlist dronedetail";
+}
+
+.QueenList {
+  background-color: lightcyan;
+  grid-area: queenlist;
+}
+
+.QueenDetail {
+  background-color: lightsalmon;
+  grid-area: queendetail;
+}
+
+.DroneList {
+  background-color: lightslategray;
+  border: 1px solid red;
+}
+
+.DroneDetail {
+  background-color: lightsteelblue;
+  grid-area: dronedetail;
+}
+
